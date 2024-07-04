@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul> <!--список дотсы, li-пункт в списке-->
+        <li>
+            <h3>Hello 1</h3> 
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, vero?</p></li>
+        <li>Hello 2</li>
+        <li>Hello 3</li>
+    </ul>
+    
+    <ol reversed start="5" type="I"> <!--список цифры, reverset start-для выбора начальной цифры, type-выбор типа буква или цифра +римские-->
+        <li>Hello 1</li>
+        <li>Hello 2</li>
+        <li>Hello 3</li>
+    </ol>
+
+<!--таблица (устаревшая)-->
+    <table border="4" style="width: 100%;">
+        <thead> <!--заголовок таблицы, ряд-->
+            <tr> <!--сам ряд-->
+                <th colspan="2"> Name <!--заголовоки колонки, colspan-объденить колонки ряда-->
+                / Second Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody><!--тело таблицы, ряд--> 
+            <tr> <!--ряд, должно соответствовать количеству в thead (!)--> 
+                <td>Tom</td> <!--тело, колонки-->
+                <td>Tomson</td>
+                <td rowspan="2">25</td> <!--rowspan-объединить ряды-->
+            </tr>
+            <tr> <!--ряд-->
+                <td>Bob</td><!--тело, колонки-->
+                <td>Linson</td>
+                
+            </tr> 
+            
+        </tbody>
+    </table> 
+    
+<form action=""> <!--Блоки для пароля/логика/ввода чего либо. Lable-название, обязательно ИД для привязки окна ввода, input placeholder- окно ввода, type: text для логина, password - для пароля -->
+</p>
+    <p>
+        <label for="username">
+            Type username
+        </label>
+        <input placeholder="Type username" id="username" type="text">
+    </p>
+     <p>
+        <label for="userpassword">
+            Type password
+        </label>
+        <input placeholder="Type password" id="userpassword" type="password">
+    </p>
+    <fieldset>
+        <legend>User secret data</legend>
+        <p>
+            <label for="secondName">
+                Type secondName
+            </label>
+            <input placeholder="secondName" id="secondName" type="text">
+        </p>
+         <p>
+            <label for="secretcode">
+                Type secret code
+            </label>
+            <input disabled placeholder="Type password" id="secretcode" type="password">
+        </p>
+    </fieldset>
+    <p>
+        <textarea disabled cols="100" rows="10"></textarea> <!--textares-поле для текста,disabled-заблочено-->
+    </p>
+    <p>
+        <label for="audi">
+            Audi:
+        </label>
+        <input type="checkbox" id="audi" value="car audi"> <!--checkbox-отметка/вибор/подтверждение-->
+        <label for="honda">
+            Honda:
+        </label>
+        <input type="checkbox" id="honda" value="car audi">
+        <label for="lexus">
+            Lexus:
+        </label>
+        <input type="checkbox" id="lexus" value="car audi">
+    </p>
+    <p>
+        <label for="male"> 
+            Male
+        </label>
+        <input type="radio" name="gender" value="male"> <!--radio-выбор 1 варианта-->
+       
+        <label for="female"> 
+            Female
+        </label>
+        <input type="radio" name="gender" value="female">
+    </p>
+    <select>
+        <option value="font-end-skill-html">HTML</option>
+        <option value="font-end-skill-css">CSS</option>
+        <option value="font-end-skill-js">JS</option>
+        <option value="back-end-skill-php">PHP</option>
+    </select>
+
+</form>
+
+</body>
+</html>

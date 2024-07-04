@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1><em>Inputs</em></h1>
+<form action="#">
+    <fieldset style="width: 250px;"> 
+    <legend>User data</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </fieldset>
+    </form>
+    <br>
+    <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+      </form>
+      <br>
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+    <br><br>
+    <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02">
+      </form>
+      <br>
+      <form>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+      </form>
+      <br><br>
+      <form>
+        <input type="image" src="https://i.pinimg.com/564x/6b/bd/2d/6bbd2d2ee8c55fba91c14339535458fe.jpg" alt="Submit" width="120" height="340">
+        </form>
+        <br>
+     <form>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+     </form>
+        <br>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <input type="submit" value="Submit">
+     </form>
+     <br>
+     <form>
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth">
+      </form>
+      <br>
+      <form>
+        <label for="quantity">Quantity (between 1 and 10):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10">
+      </form>
+      <br>
+      <form>
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+      </form>
+      <br>
+      <form>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+      </form>
+  
+</body>
+</html>
