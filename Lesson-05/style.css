@@ -1,0 +1,54 @@
+* {
+    text-decoration: underline;
+}
+
+h3,
+h4 {
+    color: red;
+    background-color: black;
+}
+
+
+p {
+    background-color: rgb(136, 219, 136);
+}
+
+/* DRY - (не повторяй сам себя)/// комментарий ctrl+/ */
+
+span {
+    color: blueviolet;
+}
+
+p span {
+    color: rgb(167, 39, 0);
+}
+
+header nav a {
+    background-color: rebeccapurple;
+}
+
+#bottom {
+    background-color: purple;
+    color: azure;
+}
+
+.text-card {
+    background-color: yellow;
+    color: blue;
+}
+
+.text-card.big {
+    font-size: 20px;
+}
+
+ul li:first-child{
+    background-color: yellow;
+}
+ul li:last-child{
+    background-color: green;
+}
+
+ul li:nth-child(3){
+    background-color: pink;
+}
+
