@@ -57,8 +57,7 @@ h1 {
 }
 
 .menu-position {
-    /* border: 1px solid black; */
-    display: inline-block;
+     display: inline-block;
     padding: 29px 12px 0px 12px;
 }
 
@@ -82,11 +81,8 @@ h3{
 }
 
 .burger-item {
-    /* border: 1px solid black; */
     display: flex;
-    /* Используем flexbox */
-    align-items: center;
-    /* Центрируем по вертикали */
+    align-items: center;    
     width: 316px;
     height: 88px;
     left: 24px;
