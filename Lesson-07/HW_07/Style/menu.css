@@ -20,7 +20,7 @@ button {
     background-color: #ffffff;
 }
 
-.menu-search {
+.menu-search:first-child{
     border-radius: 12px;
     background: #efefef;
     width: 316px;
@@ -36,7 +36,7 @@ h1 {
     font-weight: 600;
 }
 
-.menu-items {
+.menu-items:last-child {
     padding: 0px 4px;
 }
 
@@ -57,8 +57,8 @@ h1 {
 }
 
 .menu-position {
-     display: inline-block;
-    padding: 29px 12px 0px 12px;
+    display: inline-block;
+    padding: 29px 24px 0px 0px;
 }
 
 .menu-position:hover .position-img {
