@@ -29,3 +29,10 @@
     border-style: dotted;
     border-color: black; */
 }
+
+/* @font-face { для подключения кастомных шрифтов
+    font-family: ;
+    src: url();
+} */
+
+/* @import url(https;//fonts.googleapis.com/); - для непосредственного подключения шрифта ссылкой в стилях */
