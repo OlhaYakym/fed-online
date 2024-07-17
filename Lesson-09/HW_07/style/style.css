@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+    margin: 20px;
+    position: relative;
+}
+
+.dia-flag {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    top: 200px;
+    left: 200px;
+    z-index: 2;
+}
+
+.title {
+    margin: 130px 100px auto 100px;
+}
+
+.flag-ua {
+    position: absolute;
+    margin: 30px 216px auto 216px;
+}
+
+.blue {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(33, 55, 252);
+    border-radius: 6px 6px 0 0;
+}
+
+.yellow {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 206, 34);
+    border-radius: 0 0 6px 6px;
+}
+
+.speechify-square {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    top: 650px;
+    left: 650px;
+    z-index: 3;
+}
+
+.blue-bg {
+    width: 512px;
+    height: 256px;
+    background-color: rgb(33, 55, 252);
+    border-radius: 6px 6px 0 0;
+}
+
+.yellow-bg {
+    width: 512px;
+    height: 256px;
+    background-color: rgb(255, 206, 34);
+    border-radius: 0 0 6px 6px;
+}
+
+.img {
+    position: absolute;
+    left: 56px;
+    top: 145px;
+}
+
+.speechify-circle {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    border-top: 2px solid #2137fc;
+    border-bottom: 2px solid #2137fc;
+    background-color: white;
+    top: 1100px;
+    left: 1100px;
+    z-index: 2;
+}
+
+.yellow-circle {
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    background-color: #ffce22;
+    margin: 34px;
+}
+
+.img-blue {
+    position: absolute;
+    width: 444px;
+    height: 233.5px;
+    left: 34px;
+    top: 34px;
+}
+
+.img-circle {
+    width: 358px;
+    height: 204px;
+    position: absolute;
+    top: 240px;
+    left: 72px;
+    z-index: 3;
+}
