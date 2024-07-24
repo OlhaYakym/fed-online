@@ -33,6 +33,10 @@ h1 strong {
     line-height: 2.5;
 }
 
+.devContainer{
+    height: 550px;
+}
+
 .dev {
     width: 295px;
     height: 470px;
