@@ -123,6 +123,7 @@ span {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 35px;
+    margin-left: 9%;
 }
 
 .select-section>img {
@@ -152,6 +153,7 @@ p {
     align-items: center;
     margin-bottom: 72px;
     border-radius: 8px;
+    margin: 0 auto;
 }
 
 #search {
