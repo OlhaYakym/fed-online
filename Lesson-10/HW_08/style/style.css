@@ -33,8 +33,15 @@ h1 strong {
     line-height: 2.5;
 }
 
-.devContainer{
+.devContainer {
     height: 550px;
+    overflow: auto;
+}
+
+.devContainer::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .dev {
@@ -93,7 +100,7 @@ h1 strong {
     margin-left: 0;
 }
 
-.dev:last-child{
+.dev:last-child {
     margin-right: 0;
 }
 
